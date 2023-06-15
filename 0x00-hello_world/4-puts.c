@@ -1,17 +1,18 @@
 /*
  * File: 4-puts.c
- * Auth: Kassahun Shimelis
+ * Auth: Kassahun Shiemlis
  */
 
 #include <stdio.h>
 
 /**
- * main - print the words 
+ * main - Prints words.
  *
- * Return: 0 after print function
+ * Return: returns 0.
  */
 int main(void)
-{		
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+{
+	puts("\"Programming is like building a multilingual puzzle");
+
+	return (0);
 }
