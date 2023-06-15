@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *main - entry points 
  *
  *Return 0 after print function
