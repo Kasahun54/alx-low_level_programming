@@ -1,8 +1,14 @@
+/*
+ * File: 4-puts.c
+ * Auth: Kassahun Shimelis
+ */
+
 #include <stdio.h>
+
 /**
- *main - entry points 
+ * main - print the words 
  *
- *Return 0 after print function
+ * Return: 0 after print function
  */
 int main(void)
 {		
