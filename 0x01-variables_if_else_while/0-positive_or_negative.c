@@ -8,8 +8,7 @@
  * Return : 0 always success
  */
 
-/* main - Determines if a number is positive, negative or zero.*/
-int main(void)
+int main(void)/* main - Determines if a number is positive, negative or zero.*/
 {
 	int n;
 
