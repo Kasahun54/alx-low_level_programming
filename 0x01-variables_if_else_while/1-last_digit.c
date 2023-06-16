@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * main - display the last digit followed by number
+ * main - Program entry point
  *
  * Return: Always 0 (Success)
  */
