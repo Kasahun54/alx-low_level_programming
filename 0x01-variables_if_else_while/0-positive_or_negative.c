@@ -7,7 +7,6 @@
  *
  * Return : 0 always success
  */
-
 int main(void)/* main - Determines if a number is positive, negative or zero.*/
 {
 	int n;
