@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - print numbers between 0-9 
- * 
+ * main - print numbers between 0-9
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
