@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - print alphabets
  *
@@ -9,6 +9,7 @@ int main(void)
 	char s = 'a';
 	char c = 'A';
 	int n = 0;
+
 	while (n < 52)
 	{
 		if (n < 26)
@@ -21,8 +22,9 @@ int main(void)
 		putchar(c);
 		c++;
 		}
-	}
 	n++;
+	}
+
 	putchar('\n');
 	return (0);
 }
