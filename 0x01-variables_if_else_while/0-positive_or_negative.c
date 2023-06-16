@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
- * main : Enrty point
+ * main - Determines if a number is positive, negative or zero.
  *
- * Return : the number is pos or neg or zero
+ * Return : 0 always success
  */
 int main(void)
 {
