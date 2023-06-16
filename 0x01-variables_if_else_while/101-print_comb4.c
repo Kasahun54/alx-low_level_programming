@@ -1,14 +1,14 @@
 #include <stdio.h>
-/** 
-  * main - Program entry point 
-  * 
-  * Return: 0 on success. Error code otherwise 
+/**
+  * main - Program entry point
+  *
+  * Return: 0 on success. Error code otherwise
   */
 int main(void)
 {
 int i, j, k;
 
-for (i = 0; i < 8; i++) 
+for (i = 0; i < 8; i++)
 {
 for (j = i + 1; j < 9; j++)
 {
@@ -26,5 +26,5 @@ putchar(' ');
 }
 }
 
-return 0;
+return (0);
 }
