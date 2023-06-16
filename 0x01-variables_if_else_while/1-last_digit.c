@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - display the last dgit
+ * main - display the last digit followed by number
  *
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
