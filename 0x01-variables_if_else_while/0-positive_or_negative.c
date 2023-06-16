@@ -5,9 +5,9 @@
 /**
  * main - Determines if a number is positive, negative or zero.
  *
- * Return : 0 always success
+ * Return: Always 0 (Success)
  */
-int main(void)/* main - Determines if a number is positive, negative or zero.*/
+int main(void)
 {
 	int n;
 
