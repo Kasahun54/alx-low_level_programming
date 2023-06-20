@@ -5,7 +5,9 @@
  *
  * @n: decimal number
  *
- * Return: 1 n is greater than zero,0 if n is zero, -1 and prints - n is less than zero
+ * Return: 1 n is greater than zero.
+ * 0 if n is zero, -1 and,
+ * prints - n is less than zero
  */
 int print_sign(int n)
 {
