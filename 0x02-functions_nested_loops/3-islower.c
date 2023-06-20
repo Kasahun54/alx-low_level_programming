@@ -5,7 +5,7 @@
  *
  * @c: ASCI code
  *
- * return: return 1 for lowwercase and  0 for the rest
+ * Return: 1 for lowercase character. 0 for the rest.
  */
 int _islower(int c)
 {
