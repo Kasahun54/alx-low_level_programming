@@ -3,6 +3,8 @@
 /**
  * _islower - show 1 if the alphabet is lower and show 0 if any other
  *
+ * @c: ASCI code
+ *
  *  return: 1 or 0
  */
 int _islower(int c)
