@@ -5,7 +5,7 @@
  *
  * @c: ASCI code
  *
- * return: 1 or 0
+ * return: return 1 for lowwercase and  0 for the rest
  */
 int _islower(int c)
 {
