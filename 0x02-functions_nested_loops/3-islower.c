@@ -5,7 +5,7 @@
  *
  * @c: ASCI code
  *
- *  return: 1 or 0
+ * return: 1 or 0
  */
 int _islower(int c)
 {
