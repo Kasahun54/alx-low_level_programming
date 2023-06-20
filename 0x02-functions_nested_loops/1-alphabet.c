@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  main - print alphabet
+ *  print_alphabet - print alphabet
  *
  *  return: return small letter
  */
@@ -9,7 +9,7 @@ void print_alphabet(void)
 {
 	int i;
 
-	for (i = 97; i<=123; i++)
+	for (i = 97; i <= 123; i++)
 	{
 		_putchar(i);
 	}
