@@ -3,13 +3,13 @@
 /**
  * print_numbers - print numbers from 0 to 9.
  * 
- * Return: Always 0.
+ * Return: no return.
  */
 void print_numbers(void)
 {
 	int i = 48;
 
-	while (i <= 57)
+	while (i < 58)
 	{
 		_putchar(i);
 		i++;
