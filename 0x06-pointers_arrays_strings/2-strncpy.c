@@ -10,7 +10,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int c1 = 0, c2 = 0;
 
-	while (c2 < n)
+	while (c2 < n && src[c2] != '\0')
 	{
 		*(dest + c1) = *(src + c2);
 		if (*(src + c2) == '\0')
