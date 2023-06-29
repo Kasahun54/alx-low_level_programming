@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcmp - compare two string
- * @s1: string one
- * @s2: string two
- * return: return the differnce with ASCII
+ * _strcmp - compare two strings
+ * @s1: string one.
+ * @s2: string two.
+ * return: return 0 if the same differnce with ASCII
  */
 
 int _strcmp(char *s1, char *s2)
@@ -16,5 +16,5 @@ int _strcmp(char *s1, char *s2)
 			break;
 		result = *(s1 + i) - *(s2 + i);
 	}
-	return result;
+	return (result);
 }
