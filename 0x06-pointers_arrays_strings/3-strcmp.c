@@ -11,13 +11,11 @@ int _strcmp(char *s1, char *s2)
 {
 	int i, result;
 
-	for(i = 0; *s1 != '\0'; i++)
+	for(i = 0; result == 0; i++)
 	{
+		if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
+			break;
 		result = *(s1 + i) - *(s2 + i);
-	if (result == 0)
-		continue;
-	else
-		return result;
 	}
 	return result;
 }
