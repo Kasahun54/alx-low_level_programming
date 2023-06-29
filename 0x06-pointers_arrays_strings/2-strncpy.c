@@ -3,7 +3,7 @@
  * _strncpy - copy n strings
  * @dest: destination.
  * @src: Source.
- * @n: number of string to copy.
+ * @n: nmount of byte from src.
  * return: return to dest.
  */
 
