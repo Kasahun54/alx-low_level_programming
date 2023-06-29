@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strncat - concatinate string
- * @dest - destination
- * @src - source
- * @n - max number of charachter
+ * @dest: destination
+ * @src: source
+ * @n: amount of byte
  * Return : Pointer to dest
  */
 char *_strncat(char *dest, char *src, int n)
