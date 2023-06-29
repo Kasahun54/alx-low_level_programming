@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _strncpy - copy n strings
- * @dest: destination
- * @src: Source
- * @n: number of string to copy
- * return: return to dest
+ * @dest: destination.
+ * @src: Source.
+ * @n: number of string to copy.
+ * return: return to dest.
  */
 
 char *_strncpy(char *dest, char *src, int n)
