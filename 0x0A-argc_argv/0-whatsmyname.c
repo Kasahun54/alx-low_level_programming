@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include "main.h"
 /**
- * main - display the file name
- * @argc: number grater than 1
- * @argv: string that hold
- * return: return a file name
+ * main - prints its name, followed by a new line.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", argv[0]);
 	return (0);
