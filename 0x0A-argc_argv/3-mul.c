@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - multiplay the given number
- * @argc: number
- * @argv: array
+ * @argc: number of command
+ * @argv: array that contain command
  * return: 0 success
  */
 int main(int argc, char *argv[])
