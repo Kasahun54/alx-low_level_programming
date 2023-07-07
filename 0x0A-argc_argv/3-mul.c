@@ -4,7 +4,7 @@
  * main - multiplies two numbers
  * @argc: number of command
  * @argv: array that contain command
- * return: 0 - success
+ * Return: 0 - success
  */
 int main(int argc, char *argv[])
 {
