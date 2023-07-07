@@ -6,8 +6,8 @@
  * @argv: string that hold
  * return: return a file name
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[argc]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
