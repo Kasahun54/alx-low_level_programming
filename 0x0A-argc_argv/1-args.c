@@ -3,7 +3,7 @@
  * main - display the argc number
  * @argc: number
  * @argv: array contain string
- * return: return 0 always success
+ * Return: 0 - success
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
