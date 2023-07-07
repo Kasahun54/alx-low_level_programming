@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - display the string
  * @argc: number
  * @argv: array
- * return: return 0 always success
+ * Return: 0 success
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 	if (argc > 1)
