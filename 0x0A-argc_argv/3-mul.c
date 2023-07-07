@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - multiplay the given number
+ * main - multiplies two numbers
  * @argc: number of command
  * @argv: array that contain command
- * return: 0 success
+ * return: 0 - success
  */
 int main(int argc, char *argv[])
 {
