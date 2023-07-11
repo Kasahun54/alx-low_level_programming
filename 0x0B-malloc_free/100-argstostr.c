@@ -1,46 +1,50 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * argstostr - gives array of args
- * @ac: argument count
- * @av: array of arguments
- * Return: char value
+ * *argstostr - convert arguments on command line to strings
+ * @ac: int type
+ * @av: pointer to array
+ * Return: arguments as strings
  */
+
 char *argstostr(int ac, char **av)
 {
-	int size;
-	char *s;
-	int i;
-	int j;
-	int k;
+	int size, count, count1, count2 = 0;
+	char *ptr;
 
 	if (ac == 0 || av == NULL)
-		return (NULL);
-
-	for (i = 0; i < ac; i++)
 	{
-		for (j = 0; av[i][j] != '\0'; j++)
-			size++;
+		return (NULL);
 	}
 
-	size += (ac + 1);
-	s = malloc(sizeof(char) * size);
-	if (s == NULL)
-		return (NULL);
-	k = 0;
-	for (i = 0; i < ac; i++)
+	for (count = 0; count < ac; count++)
 	{
-		for (j = 0; av[i][j] != '\0'; j++)
+		for (count1 = 0; av[count][count1] != '\0'; count1++)
 		{
-			s[k] = av[i][j];
-			k++;
+			size += 1;
 		}
-		s[k] = '\n';
-		k++;
+		size += 1;
 	}
+	size += 1;
 
-	s[k] = '\0';
-
-	return (s);
+	ptr = malloc(sizeof(char) * size);
+	if (ptr == NULL)
+	{
+		free(ptr);
+		return (NULL);
+	}
+	for (count = 0; count < ac; count++)
+	{
+		for (count1 = 0; av[count][count1] != '\0'; count1++)
+		{
+			ptr[count2] = av[count][count1];
+			count2++;
+		}
+		ptr[count2] = '\n';
+		count2++;
+	}
+	ptr[count2] = '\0';
+	return (ptr);
 }
