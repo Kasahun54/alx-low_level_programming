@@ -1,7 +1,9 @@
 #include "main.h"
+
 /**
  * print_binary - convert decimal to binary
  * @n: number in base ten
+ * 
  * Return: the binary 
  *
  */
