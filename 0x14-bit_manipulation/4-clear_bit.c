@@ -1,5 +1,4 @@
 #include "main.h"
-#include "2-get_bit.c"
 /**
  * clear_bit - clears index to 0
  * @n: integer to pass
