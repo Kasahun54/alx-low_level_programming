@@ -1,7 +1,9 @@
 #include "main.h"
+#include "2-get_bit.c"
 /**
  * set_bit - set a bit
  * @n: number
+ *
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
