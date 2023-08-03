@@ -1,18 +1,17 @@
 #include "main.h"
+
 /**
- * clear_bit - clears index to 0
- * @n: integer to pass
- * @index: index to go
- * Return: returns integer val
+ * clear_bit - sets the value of a bit to 0
+ * @n: pointer to the number to change
+ * @index: index of the bit to clear
+ *
+ * Return: 1 for success, -1 for failure
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	if (index > 32)
+	if (index > 63)
 		return (-1);
 
-	(*n) &= ~(1 << index);
-
-	if (get_bit((*n), index) == 0)
-		return (1);
-	return (-1);
+	*n = (~(1UL << index) & *n);
+	return (1);
 }
