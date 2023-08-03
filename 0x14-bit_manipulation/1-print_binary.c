@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * print_binary - convert decimal to binary
+ * print_binary - print binary
  * @n: number in base ten
- * 
- * Return: the binary 
- *
  */
 void print_binary(unsigned long int n)
 {
