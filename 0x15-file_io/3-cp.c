@@ -3,7 +3,7 @@
  * main - program to copy argument
  * @ac: count argument
  * @av: array of arguments
- * Return: value
+ * Return: a value
  */
 int main(int ac, char **av)
 {
