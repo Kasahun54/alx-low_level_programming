@@ -1,9 +1,11 @@
 #include "lists.h"
 
 /**
-  * free_dlistint - empty doubly linked list.
-  * @head: the first node.
-  */
+ * free_dlistint - empty doubly linked list.
+ * @head: first node.
+ *
+ * Return: Nothing
+ */
 void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *cursor;
