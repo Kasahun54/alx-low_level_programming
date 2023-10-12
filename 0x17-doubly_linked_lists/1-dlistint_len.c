@@ -3,7 +3,7 @@
 /**
  * dlistint_len - count number of nodes of a doubly linked list.
  * @h: point to the first node.
- * 
+ *
  * Return: nodes number.
  */
 size_t dlistint_len(const dlistint_t *h)
