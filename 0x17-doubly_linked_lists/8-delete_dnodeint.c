@@ -1,38 +1,38 @@
 #include "lists.h"
 
 /**
- * delete_dnodeint_at_index - delete the node
- * @head: the first node
- * @index: position of the node
+ * delete_dnodeint_at_index - Deletes a node
  *
- * Return: 1 on success, -1 on failure.
+ * @head: the first node
+ * @index:index node
+ *
+ * Return: if success - 1 or 1
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	dlistint_t *cursor1, *cursor2, *tmp;
-	unsigned int i = 0;
+	dlistint_t *tmp = *head;
 
 	if (*head == NULL)
 		return (-1);
-	tmp = *head;
-	if (index == 0)
-	{
-		cursor1 = tmp->next;
-		*head = cursor1;
-		free(tmp);
-		return (1);
-	}
-	while (i < index)
+
+	for (; index != 0; index--)
 	{
 		if (tmp == NULL)
 			return (-1);
 		tmp = tmp->next;
-		i++;
 	}
-	cursor1 = tmp->prev;
-	cursor2 = tmp->next;
-	cursor1->next = cursor2;
-	cursor2->prev = cursor1;
+	if (tmp == *head)
+	{
+		*head = tmp->next;
+		if (*head != NULL)
+			(*head)->prev = NULL;
+	}
+	else
+	{
+		tmp->prev->next = tmp->next;
+		if (tmp->next != NULL)
+			tmp->next->prev = tmp->prev;
+	}
 	free(tmp);
 	return (1);
 }
